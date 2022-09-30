@@ -4,29 +4,29 @@ using System;
 
 abstract class Model
 {
-    protected bool[][] wave;
+    protected bool[][] wave; // wave[i][j] = true if there is a wave at (i, j)
 
-    protected int[][][] propagator;
-    int[][][] compatible;
-    protected int[] observed;
+    protected int[][][] propagator; // propagator[i][j][k] = number of waves propagating from (i, j) to (i, j) + k
+    int[][][] compatible; // compatible[i][j][k] = number of waves propagating from (i, j) to (i, j) + k
+    protected int[] observed; // observed[i] = number of waves propagating from (i, 0) to (i, N)
 
-    (int, int)[] stack;
-    int stacksize, observedSoFar;
+    (int, int)[] stack; // stack[i] = (i, 0) if wave[i][0] = true, (i, N) otherwise
+    int stacksize, observedSoFar; // stacksize = number of waves in stack, observedSoFar = number of waves propagating from (0, 0) to (N, N)
 
-    protected int MX, MY, T, N;
-    protected bool periodic, ground;
+    protected int MX, MY, T, N; // MX = maximum number of waves propagating from (0, 0) to (N, N), MY = maximum number of waves propagating from (0, 0) to (N, 0), T = number of waves propagating from (0, 0) to (N, N), N = size of the grid
+    protected bool periodic, ground; // periodic = true if the grid is periodic, ground = true if the grid is grounded
 
-    protected double[] weights;
-    double[] weightLogWeights, distribution;
+    protected double[] weights; // weights[i] = weight of wave i
+    double[] weightLogWeights, distribution; // weightLogWeights[i] = log(weight of wave i), distribution[i] = probability of wave i
 
-    protected int[] sumsOfOnes;
-    double sumOfWeights, sumOfWeightLogWeights, startingEntropy;
-    protected double[] sumsOfWeights, sumsOfWeightLogWeights, entropies;
+    protected int[] sumsOfOnes; // sumsOfOnes[i] = number of waves propagating from (0, 0) to (i, i)
+    double sumOfWeights, sumOfWeightLogWeights, startingEntropy; // sumOfWeights = sum of weights, sumOfWeightLogWeights = sum of log(weights), startingEntropy = entropy of the distribution before the simulation
+    protected double[] sumsOfWeights, sumsOfWeightLogWeights, entropies; // sumsOfWeights[i] = sum of weights of waves propagating from (0, 0) to (i, i), sumsOfWeightLogWeights[i] = sum of log(weights) of waves propagating from (0, 0) to (i, i), entropies[i] = entropy of the distribution after wave i is added
 
-    public enum Heuristic { Entropy, MRV, Scanline };
-    Heuristic heuristic;
+    public enum Heuristic { Entropy, MRV, Scanline }; // heuristic = heuristic to use for choosing the next wave to add to the stack
+    Heuristic heuristic; // heuristic = heuristic to use for choosing the next wave to add to the stack
 
-    protected Model(int width, int height, int N, bool periodic, Heuristic heuristic)
+    protected Model(int width, int height, int N, bool periodic, Heuristic heuristic) 
     {
         MX = width;
         MY = height;
@@ -132,7 +132,7 @@ abstract class Model
         return argmin;
     }
 
-    void Observe(int node, Random random)
+    void Observe(int node, Random random) // node = (i, j)
     {
         bool[] w = wave[node];
         for (int t = 0; t < T; t++) distribution[t] = w[t] ? weights[t] : 0.0;
@@ -140,7 +140,7 @@ abstract class Model
         for (int t = 0; t < T; t++) if (w[t] != (t == r)) Ban(node, t);
     }
 
-    bool Propagate()
+    bool Propagate() // returns true if the simulation is complete
     {
         while (stacksize > 0)
         {
@@ -179,7 +179,7 @@ abstract class Model
         return sumsOfOnes[0] > 0;
     }
 
-    void Ban(int i, int t)
+    void Ban(int i, int t) // ban wave t from node i
     {
         wave[i][t] = false;
 
@@ -196,7 +196,7 @@ abstract class Model
         entropies[i] = Math.Log(sum) - sumsOfWeightLogWeights[i] / sum;
     }
 
-    void Clear()
+    void Clear() // reset the wave function
     {
         for (int i = 0; i < wave.Length; i++)
         {

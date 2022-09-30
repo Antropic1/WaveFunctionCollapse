@@ -1,0 +1,187 @@
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\3Bricks.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Angular.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\BrownFox.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Cat.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Cats.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Cave.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Chess.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Circle.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\City.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\ColoredCity.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Disk.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Dungeon.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Fabric.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Flowers.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Font.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Forest.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Hogs.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Knot.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Lake.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\LessRooms.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Lines.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Link.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Link2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\MagicOffice.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Maze.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Mazelike.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\MoreFlowers.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Mountains.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Nested.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\NotKnot.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Office.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Office2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Paths.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Platformer.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Qud.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\RedDot.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\RedMaze.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Rooms.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Rule126.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Sand.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\ScaledMaze.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Sewers.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\SimpleKnot.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\SimpleMaze.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\SimpleWall.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Skew1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Skew2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Skyline.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Skyline2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\SmileCity.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Spirals.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Town.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\TrickKnot.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Village.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Wall.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\WalledDot.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Water.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples\Wrinkles.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\bridge.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\ground.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\river.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\riverturn.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\road.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\roadturn.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\t.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\tower.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\wall.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\wallriver.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Castle\wallroad.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\b.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\b_half.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\b_i.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\b_quarter.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\w.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\w_half.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\w_i.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circles\w_quarter.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\bridge.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\component.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\connection.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\corner.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\dskew.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\skew.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\substrate.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\t.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\track.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\transition.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\turn.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\viad.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\vias.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Circuit\wire.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\div.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\divt.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\divturn.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\door.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\empty.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\floor.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\glass.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\halfglass.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\in.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\out.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\stairs.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\table.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\vent.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\w.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\wall.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\walldiv.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\FloorPlan\window.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Knots.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Knots\corner.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Knots\cross.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Knots\empty.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Knots\line.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Knots\t.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\bend.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\corner.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\corridor.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\door.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\empty.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\side.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\t.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\turn.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Rooms\wall.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliff 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliff 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliff 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliff 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffcorner 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffcorner 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffcorner 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffcorner 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffturn 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffturn 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffturn 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\cliffturn 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\grass 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\grasscorner 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\grasscorner 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\grasscorner 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\grasscorner 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\road 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\road 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\road 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\road 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\roadturn 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\roadturn 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\roadturn 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\roadturn 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\watercorner 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\watercorner 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\watercorner 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\watercorner 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterside 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterside 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterside 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterside 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterturn 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterturn 1.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterturn 2.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\waterturn 3.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\water_a 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\water_b 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\tilesets\Summer\water_c 0.png
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\samples.xml
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\WaveFunctionCollapse.exe
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\WaveFunctionCollapse.deps.json
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\WaveFunctionCollapse.runtimeconfig.json
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\WaveFunctionCollapse.dll
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\ref\WaveFunctionCollapse.dll
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\WaveFunctionCollapse.pdb
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\bin\Debug\SixLabors.ImageSharp.dll
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.csproj.AssemblyReference.cache
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.AssemblyInfoInputs.cache
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.AssemblyInfo.cs
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.csproj.CopyComplete
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.dll
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\ref\WaveFunctionCollapse.dll
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.pdb
+C:\Users\Anthony\OneDrive\Documents\GitHub\WaveFunctionCollapse\obj\Debug\WaveFunctionCollapse.genruntimeconfig.cache
