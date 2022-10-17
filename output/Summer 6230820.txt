@@ -1,6 +1,0 @@
-cliffturn 0, cliffcorner 2, grass 0, grass 0, roadturn 0, road 0, 
-grass 0, cliffturn 0, cliff 0, cliff 0, cliffcorner 2, grass 0, 
-cliffturn 2, grass 0, grass 0, grass 0, cliff 3, grass 0, 
-cliffcorner 0, cliff 2, cliffturn 2, grass 0, cliffturn 0, cliffcorner 2, 
-grass 0, grass 0, cliff 1, grass 0, grass 0, cliffturn 0, 
-cliffturn 2, grass 0, cliffcorner 0, cliff 2, cliffturn 2, grass 0, 

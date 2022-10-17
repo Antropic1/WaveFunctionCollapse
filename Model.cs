@@ -28,6 +28,7 @@ abstract class Model
 
     protected Model(int width, int height, int N, bool periodic, Heuristic heuristic) 
     {
+        
         MX = width;
         MY = height;
         this.N = N;

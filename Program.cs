@@ -13,7 +13,7 @@ static class Program
         foreach (var file in folder.GetFiles()) file.Delete();
 
         Random random = new();
-        XDocument xdoc = XDocument.Load("samples.xml");
+        XDocument xdoc = XDocument.Load("Castle.xml"); // default value: "samples.xml"
 
         foreach (XElement xelem in xdoc.Root.Elements("overlapping", "simpletiled"))
         {
