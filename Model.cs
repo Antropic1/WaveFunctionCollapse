@@ -4,29 +4,58 @@ using System;
 
 abstract class Model
 {
-    protected bool[][] wave; // wave[i][j] = true if there is a wave at (i, j)
+    protected bool[][] wave; 
+    // wave[i][j] = true if there is a wave at (i, j)
+    protected int[][][] propagator; 
+    // propagator[i][j][k] = number of waves propagating from (i, j) to (i, j) + k
+    int[][][] compatible; 
+    // compatible[i][j][k] = number of waves propagating from (i, j) to (i, j) + k
+    protected int[] observed; 
+    // observed[i] = number of waves propagating from (i, 0) to (i, N)
 
-    protected int[][][] propagator; // propagator[i][j][k] = number of waves propagating from (i, j) to (i, j) + k
-    int[][][] compatible; // compatible[i][j][k] = number of waves propagating from (i, j) to (i, j) + k
-    protected int[] observed; // observed[i] = number of waves propagating from (i, 0) to (i, N)
+    (int, int)[] stack; 
+    // stack[i] = (i, 0) if wave[i][0] = true, (i, N) otherwise
+    int stacksize, observedSoFar; 
+    // stacksize = number of waves in stack, 
+    // observedSoFar = number of waves propagating from (0, 0) to (N, N)
 
-    (int, int)[] stack; // stack[i] = (i, 0) if wave[i][0] = true, (i, N) otherwise
-    int stacksize, observedSoFar; // stacksize = number of waves in stack, observedSoFar = number of waves propagating from (0, 0) to (N, N)
+    protected int MX, MY, T, N; 
+    // MX = maximum number of waves propagating from (0, 0) to (N, N), 
+    // MY = maximum number of waves propagating from (0, 0) to (N, 0), 
+    // T = number of waves propagating from (0, 0) to (N, N), 
+    // N = size of the grid
 
-    protected int MX, MY, T, N; // MX = maximum number of waves propagating from (0, 0) to (N, N), MY = maximum number of waves propagating from (0, 0) to (N, 0), T = number of waves propagating from (0, 0) to (N, N), N = size of the grid
-    protected bool periodic, ground; // periodic = true if the grid is periodic, ground = true if the grid is grounded
+    protected bool periodic, ground; 
+    // periodic = true if the grid is periodic, 
+    // ground = true if the grid is grounded
 
-    protected double[] weights; // weights[i] = weight of wave i
-    double[] weightLogWeights, distribution; // weightLogWeights[i] = log(weight of wave i), distribution[i] = probability of wave i
+    protected double[] weights; 
+    // weights[i] = weight of wave i
+    double[] weightLogWeights, distribution; 
+    // weightLogWeights[i] = log(weight of wave i), 
+    // distribution[i] = probability of wave i
 
-    protected int[] sumsOfOnes; // sumsOfOnes[i] = number of waves propagating from (0, 0) to (i, i)
-    double sumOfWeights, sumOfWeightLogWeights, startingEntropy; // sumOfWeights = sum of weights, sumOfWeightLogWeights = sum of log(weights), startingEntropy = entropy of the distribution before the simulation
-    protected double[] sumsOfWeights, sumsOfWeightLogWeights, entropies; // sumsOfWeights[i] = sum of weights of waves propagating from (0, 0) to (i, i), sumsOfWeightLogWeights[i] = sum of log(weights) of waves propagating from (0, 0) to (i, i), entropies[i] = entropy of the distribution after wave i is added
+    protected int[] sumsOfOnes; 
+    // sumsOfOnes[i] = number of waves propagating from (0, 0) to (i, i)
+    double sumOfWeights, sumOfWeightLogWeights, startingEntropy; 
+    // sumOfWeights = sum of weights, 
+    // sumOfWeightLogWeights = sum of log(weights), 
+    // startingEntropy = entropy of the distribution before the simulation
+    protected double[] sumsOfWeights, sumsOfWeightLogWeights, entropies; 
+    // sumsOfWeights[i] = sum of weights of waves propagating from (0, 0) to (i, i), 
+    // sumsOfWeightLogWeights[i] = sum of log(weights) of waves propagating from (0, 0) to (i, i), 
+    // entropies[i] = entropy of the distribution after wave i is added
 
-    public enum Heuristic { Entropy, MRV, Scanline }; // heuristic = heuristic to use for choosing the next wave to add to the stack
-    Heuristic heuristic; // heuristic = heuristic to use for choosing the next wave to add to the stack
+    public enum Heuristic { Entropy, MRV, Scanline }; 
+    // heuristic = heuristic to use for choosing the next wave to add to the stack
+    Heuristic heuristic; 
+    // heuristic = heuristic to use for choosing the next wave to add to the stack
 
-    protected Model(int width, int height, int N, bool periodic, Heuristic heuristic) 
+    protected Model(int width, 
+                    int height, 
+                    int N, 
+                    bool periodic, 
+                    Heuristic heuristic) 
     {
         
         MX = width;
@@ -123,6 +152,7 @@ abstract class Model
             if (remainingValues > 1 && entropy <= min)
             {
                 double noise = 1E-6 * random.NextDouble();
+
                 if (entropy + noise < min)
                 {
                     min = entropy + noise;
@@ -172,7 +202,10 @@ abstract class Model
                     int[] comp = compat[t2];
 
                     comp[d]--;
-                    if (comp[d] == 0) Ban(i2, t2);
+                    if (comp[d] == 0) 
+                    {
+                        Ban(i2, t2);
+                    }
                 }
             }
         }
@@ -185,7 +218,8 @@ abstract class Model
         wave[i][t] = false;
 
         int[] comp = compatible[i][t];
-        for (int d = 0; d < 4; d++) comp[d] = 0;
+        for (int d = 0; d < 4; d++) 
+        comp[d] = 0;
         stack[stacksize] = (i, t);
         stacksize++;
 

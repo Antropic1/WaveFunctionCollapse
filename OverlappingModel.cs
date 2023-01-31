@@ -8,12 +8,21 @@ class OverlappingModel : Model
     List<byte[]> patterns;
     List<int> colors;
 
-    public OverlappingModel(string name, int N, int width, int height, bool periodicInput, bool periodic, int symmetry, bool ground, Heuristic heuristic)
+    public OverlappingModel(string name, 
+                            int N, 
+                            int width, 
+                            int height, 
+                            bool periodicInput, 
+                            bool periodic, 
+                            int symmetry, 
+                            bool ground, 
+                            Heuristic heuristic)
         : base(width, height, N, periodic, heuristic)
     {
         var (bitmap, SX, SY) = BitmapHelper.LoadBitmap($"samples/{name}.png");        
         byte[] sample = new byte[bitmap.Length];
         colors = new List<int>();
+
         for (int i = 0; i < sample.Length; i++)
         {
             int color = bitmap[i];
@@ -67,7 +76,9 @@ class OverlappingModel : Model
                 {
                     byte[] p = ps[k];
                     long h = hash(p, C);
+
                     if (patternIndices.TryGetValue(h, out int index)) weightList[index] = weightList[index] + 1;
+
                     else
                     {
                         patternIndices.Add(h, weightList.Count);
@@ -81,10 +92,18 @@ class OverlappingModel : Model
         T = weights.Length;
         this.ground = ground;
 
-        static bool agrees(byte[] p1, byte[] p2, int dx, int dy, int N)
+        static bool agrees(byte[] p1, byte[] p2, 
+                            int dx, int dy, 
+                            int N)
         {
-            int xmin = dx < 0 ? 0 : dx, xmax = dx < 0 ? dx + N : N, ymin = dy < 0 ? 0 : dy, ymax = dy < 0 ? dy + N : N;
-            for (int y = ymin; y < ymax; y++) for (int x = xmin; x < xmax; x++) if (p1[x + N * y] != p2[x - dx + N * (y - dy)]) return false;
+            int xmin = dx < 0 ? 0 : dx, 
+                xmax = dx < 0 ? dx + N : N, 
+                ymin = dy < 0 ? 0 : dy, 
+                ymax = dy < 0 ? dy + N : N;
+
+            for (int y = ymin; y < ymax; y++) 
+                for (int x = xmin; x < xmax; x++) 
+                    if (p1[x + N * y] != p2[x - dx + N * (y - dy)]) return false;
             return true;
         };
 
@@ -95,9 +114,15 @@ class OverlappingModel : Model
             for (int t = 0; t < T; t++)
             {
                 List<int> list = new();
-                for (int t2 = 0; t2 < T; t2++) if (agrees(patterns[t], patterns[t2], dx[d], dy[d], N)) list.Add(t2);
+                for (int t2 = 0; t2 < T; t2++)
+                {
+                    if (agrees(patterns[t], patterns[t2], dx[d], dy[d], N)) 
+
+                        list.Add(t2);
+                }
                 propagator[d][t] = new int[list.Count];
-                for (int c = 0; c < list.Count; c++) propagator[d][t][c] = list[c];
+                for (int c = 0; c < list.Count; c++) 
+                    propagator[d][t][c] = list[c];
             }
         }
     }
@@ -123,25 +148,29 @@ class OverlappingModel : Model
             {
                 int contributors = 0, r = 0, g = 0, b = 0;
                 int x = i % MX, y = i / MX;
-                for (int dy = 0; dy < N; dy++) for (int dx = 0; dx < N; dx++)
-                    {
-                        int sx = x - dx;
-                        if (sx < 0) sx += MX;
+                for (int dy = 0; dy < N; dy++) 
+                    for (int dx = 0; dx < N; dx++)
+                        {
+                            int sx = x - dx;
+                            if (sx < 0) sx += MX;
 
-                        int sy = y - dy;
-                        if (sy < 0) sy += MY;
+                            int sy = y - dy;
 
-                        int s = sx + sy * MX;
-                        if (!periodic && (sx + N > MX || sy + N > MY || sx < 0 || sy < 0)) continue;
-                        for (int t = 0; t < T; t++) if (wave[s][t])
-                            {
-                                contributors++;
-                                int argb = colors[patterns[t][dx + dy * N]];
-                                r += (argb & 0xff0000) >> 16;
-                                g += (argb & 0xff00) >> 8;
-                                b += argb & 0xff;
-                            }
-                    }
+                            if (sy < 0) sy += MY;
+
+                            int s = sx + sy * MX;
+                            
+                            if (!periodic && (sx + N > MX || sy + N > MY || sx < 0 || sy < 0)) continue;
+
+                            for (int t = 0; t < T; t++) if (wave[s][t])
+                                {
+                                    contributors++;
+                                    int argb = colors[patterns[t][dx + dy * N]];
+                                    r += (argb & 0xff0000) >> 16;
+                                    g += (argb & 0xff00) >> 8;
+                                    b += argb & 0xff;
+                                }
+                        }
                 bitmap[i] = unchecked((int)0xff000000 | ((r / contributors) << 16) | ((g / contributors) << 8) | b / contributors);
             }
         }

@@ -12,7 +12,12 @@ class SimpleTiledModel : Model
     int tilesize;
     bool blackBackground;
 
-    public SimpleTiledModel(string name, string subsetName, int width, int height, bool periodic, bool blackBackground, Heuristic heuristic) : base(width, height, 1, periodic, heuristic)
+    public SimpleTiledModel(string name, string subsetName, 
+                            int width, int height, 
+                            bool periodic, 
+                            bool blackBackground, 
+                            Heuristic heuristic) 
+                            : base(width, height, 1, periodic, heuristic)
     {
         this.blackBackground = blackBackground;
         XElement xroot = XDocument.Load($"tilesets/{name}.xml").Root;
