@@ -171,21 +171,24 @@ abstract class Model
         for (int t = 0; t < T; t++) if (w[t] != (t == r)) Ban(node, t);
     }
 
-    bool Propagate() // returns true if the simulation is complete
+    bool Propagate() 
+    // returns true if the simulation is complete
     {
-        while (stacksize > 0)
-        {
+        while (stacksize > 0) {
             (int i1, int t1) = stack[stacksize - 1];
             stacksize--;
 
             int x1 = i1 % MX;
             int y1 = i1 / MX;
 
-            for (int d = 0; d < 4; d++)
-            {
+            for (int d = 0; d < 4; d++){
                 int x2 = x1 + dx[d];
                 int y2 = y1 + dy[d];
-                if (!periodic && (x2 < 0 || y2 < 0 || x2 + N > MX || y2 + N > MY)) continue;
+                if (!periodic && 
+                   (x2 < 0 || 
+                    y2 < 0 || 
+                    x2 + N > MX || 
+                    y2 + N > MY)) continue;
 
                 if (x2 < 0) x2 += MX;
                 else if (x2 >= MX) x2 -= MX;
@@ -251,8 +254,7 @@ abstract class Model
 
         if (ground)
         {
-            for (int x = 0; x < MX; x++)
-            {
+            for (int x = 0; x < MX; x++){
                 for (int t = 0; t < T - 1; t++) Ban(x + (MY - 1) * MX, t);
                 for (int y = 0; y < MY - 1; y++) Ban(x + y * MX, T - 1);
             }
